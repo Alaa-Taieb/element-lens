@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Element Lens",
+  "version": "0.1.0",
+  "description": "Capture useful, AI-ready context from a web page element.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "action": {
+    "default_title": "Element Lens"
+  }
+}
